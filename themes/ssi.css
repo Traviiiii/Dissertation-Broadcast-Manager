@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto Serif');
+
+* {
+    color: #ececec;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: #bb955a;
+    font-family: 'Noto Serif';
+}
+
+.highlight-container {
+    background-color: #292c34;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.player-img {
+    width: 100%;
+    object-fit: contain;
+    background-image: url(../img/showdownseries/bgfull.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    border-bottom: #bb955a solid 2px;
+}
+
+.operator-img{
+    padding-top: 5px;
+    border-bottom: #bb955a solid 2px;
+    background-image: url(../img/showdownseries/bgfull.png);
+    background-size: cover;
+}
+
+.player-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0px;
+    margin-left: 20px;
+}
+
+.background-img {
+    background-image: url(../img/showdownseries/bgfull.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.text-dark {
+    color: #292c34;
+}
+
+.schedule-top {
+    border-bottom: #bb955a solid 5px;
+}
+
+.schedule-next {
+    border-top: #bb955a solid 2px !important;
+    border-bottom: #bb955a solid 2px !important;
+}
+
+.game-banner {
+    background-image: url(../img/showdownseries/bgfull.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.ingame-tournament-logo {
+    background-image: url(../img/showdownseries/logo.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.ingame-map {
+    border-right: #bb955a solid 2px;
+}
+
+.ingame-left h2 {
+    color: #292c34;
+}

@@ -1,0 +1,17 @@
+// Import Individual SCSS Pages
+@import "other/variables.scss";
+@import "vendors/bootstrap.scss";
+@import "layout/navbar.scss";
+@import "pages/login.scss";
+@import "pages/players.scss";
+
+// Font Import
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+// Site Wide Styling
+body {
+    height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+}

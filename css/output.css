@@ -1,0 +1,147 @@
+* {
+  max-width: 1920px;
+  max-height: 1080px;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0) !important;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.highlight-container {
+  margin-left: 3%;
+  height: 90%;
+  width: 30%;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.player-container {
+  height: 90% !important;
+}
+
+.container {
+  background-color: #292c34 !important;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.op-container {
+  margin-right: 3%;
+  height: 80% !important;
+}
+
+.op-container h5 {
+  font-size: larger;
+}
+
+h5 {
+  font-weight: normal;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.operator-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+.operator-icon {
+  display: block;
+  margin: 0 auto;
+  height: 72px;
+  width: 72px;
+}
+
+.team-camera {
+  width: 100%;
+}
+
+.map-stage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.veto-row {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 3s ease, transform 3s ease;
+}
+
+.veto-row.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.game-banner {
+  height: 55px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+
+.ingame-logo {
+  height: 30px;
+  width: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.ingame-tournament-logo {
+  height: 52px;
+  width: 52px;
+
+}
+
+.ingame-map {
+  height: 55px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.ingame-map span {
+  background-color: rgba(47, 47, 47, 0.396);
+  padding: 2px;
+  margin-left: 5px;
+  width: 100%;
+}
+
+.ingame-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+  width: 600px;
+}
+
+.ingame-left {
+  padding-left: 20px;
+  width: 600px;
+}
+
+.ingame-center {
+  display: flex;
+  align-items: center;
+}

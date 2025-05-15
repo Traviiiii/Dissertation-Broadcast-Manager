@@ -1,0 +1,11 @@
+.nav-link, .navbar-brand{
+    color: hsl(0, 0%, 96%) !important;
+}
+
+.list-group-item.active {
+    font-weight: bold;
+    background-color: inherit !important;
+    border-color: inherit !important;
+    color: inherit !important;
+  }
+  

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Simplon+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scout&display=swap');
+
+* {
+  color: #ececec;
+  font-family: 'Simplon Mono';
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: #b245ff;
+  font-family: 'Scout';
+}
+
+.highlight-container {
+  background-color: #292c34;
+  text-align: left;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container {
+  margin-left: 3%;
+  height: 90%;
+  width: 30%;
+}
+
+.op-container {
+  flex-direction: column !important;
+  background-color: #292c34;
+}
+
+.player-img {
+  width: 100%;
+  object-fit: contain;
+  background-image: url(../img/br6apl/bg.png);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  border-top: #b245ff solid 2px;
+}
+
+.operator-img {
+  padding-top: 5px;
+  border-bottom: #b245ff solid 2px;
+}
+
+.player-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  text-align: center;
+  line-height: 0px;
+  background-color: #292c34;
+}
+
+.player-text h2 {
+  font-size: small;
+  font-weight: 200;
+}
+
+.player-text h5 {
+  font-size: small;
+  font-weight: 200;
+}
+
+.background-img {
+  background-image: url(../img/br6apl/bg.png);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.schedule-top {
+  border-bottom: #b245ff solid 5px;
+}
+
+.schedule-next {
+  border-top: #b245ff solid 2px !important;
+  border-bottom: #b245ff solid 2px !important;
+}
+
+.game-banner {
+  background-image: url(../img/br6apl/bg.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.ingame-tournament-logo {
+  background-image: url(../img/br6apl/logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ingame-map {
+  border-right: #b245ff solid 2px;
+}

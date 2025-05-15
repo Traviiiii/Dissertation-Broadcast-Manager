@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+* {
+    color: #ececec;
+    font-family: "Share Tech", sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: #ff3c2c;
+    font-family: "Share Tech", sans-serif;
+}
+
+.highlight-container {
+    background-color: #292c34;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.player-img {
+    width: 100%;
+    object-fit: contain;
+    background-image: url(../img/siegex/background.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    border-bottom: #ff3c2c solid 2px;
+}
+
+.operator-img{
+    padding-top: 5px;
+    border-bottom: #ff3c2c solid 2px;
+    background-image: url(../img/siegex/background.jpg);
+    background-size: cover;
+}
+
+.player-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0px;
+    margin-left: 20px;
+}
+
+.background-img {
+    background-image: url(../img/siegex/background.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.text-dark {
+    color: #edeef1 !important;
+}
+
+.schedule-top {
+    border-bottom: #ff3c2c solid 5px;
+}
+
+.schedule-next {
+    border-top: #ff3c2c solid 2px !important;
+    border-bottom: #ff3c2c solid 2px !important;
+}
+
+.game-banner {
+    background-image: url(../img/siegex/background.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.ingame-tournament-logo {
+    background-image: url(../img/siegex/logo.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.ingame-map {
+    border-right: #ff3c2c solid 2px;
+}
+
+.ingame-left h2 {
+    color: #edeef1;
+}
+
+.camera-row {
+    border-top: #ff3c2c solid 5px;
+}

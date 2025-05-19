@@ -87,7 +87,7 @@ if (isset($_POST["create"])) {
                 </div>
                 <div class="mb-3">
                     <label for="title" class="form-label">Stream Title</label>
-                    <input type="text" class="form-control" name="title" value="$title" required>
+                    <input type="text" class="form-control" name="title" value="<?php echo $title ?>" required>
                 </div>
                 <button type="submit" class="btn btn-primary" value="Submit">Save</button>
             </form>
